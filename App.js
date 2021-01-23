@@ -54,22 +54,26 @@ const App = () => {
           </TouchableOpacity>
         </View>
       </SafeAreaView>
+      
     </>
   )
 }
 
 const styles = StyleSheet.create({
   flexContainer: {
-    flex: 1
+    height: '100%',
+    width: '100%',
+    alignSelf: 'center',
+    justifyContent: 'center',
   },
   tabBarContainer: {
     padding: 20,
     flexDirection: 'row',
     justifyContent: 'space-around',
-    backgroundColor: '#b43757'
+    // backgroundColor: '#b43757'
   },
   button: {
-    color: 'white',
+    color: 'black',
     fontSize: 24
   }
 })
